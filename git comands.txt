@@ -1,6 +1,16 @@
+Step 1: Create a Git Repository
 to check status --Git Status
-to creat a git repo -- Git Init
+to create a git repo -- Git Init
 to add files in staging area -- Git add .,git add -A, Git add --all
-to add repo to the server -- Git Remote Add Origin "paste git ssl url"
-to push data -- Git push -u Origin Master
-to pull data -- Git Pull  
+to add commit -- Git Commit -m "commit massege"
+Step 2: Add Repository to Server
+to add repository to the server -- Git Remote Add Origin "paste git ssl url"
+Step 3: Adding Ssh Key to Server
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+start the ssh-agent in the background  --   eval $(ssh-agent -s)
+to create a key -- ssh-add ~/.ssh/id_rsa
+to copy key --clip < ~/.ssh/id_rsa.pub
+Step 4: Paste Copied Key To Add SSH Key Option
+Step 5: Push and Pull Data
+to push data -- Git push -u Origin <Master>
+to pull data -- Git Pull origin <branch> 
