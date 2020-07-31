@@ -1,0 +1,6 @@
+to check status --Git Status
+to creat a git repo -- Git Init
+to add files in staging area -- Git add .,git add -A, Git add --all
+to add repo to the server -- Git Remote Add Origin "paste git ssl url"
+to push data -- Git push -u Origin Master
+to pull data -- Git Pull  
