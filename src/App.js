@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import './App.css';
 import HomePage from './pages/homepage/homepage.component'
 import ShopPage from "./pages/shop/shop.page";
+import SignInPage from "./pages/signinpage/signinpage.component";
 import Header from "./components/header/header.component";
 // class App extends React.Component {
 //   constructor() {
@@ -42,6 +43,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
+        <Route exact path='/signin' component={SignInPage} />
         <Route path='/hats' component={HatsPage} />
         <Route path='/shop' component={ShopPage} />
       </Switch>
