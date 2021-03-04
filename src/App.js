@@ -1,9 +1,9 @@
 import React from "react";
 import {Switch, Route} from "react-router-dom";
 import "./App.css";
-import HomePage from "./pages/homepage/homepage.component";
+import HomePage from "./pages/homepage/homepage.page";
 import ShopPage from "./pages/shop/shop.page";
-import SignInPage from "./pages/signinpage/signinpage.component";
+import SignInPage from "./pages/signinpage/signinpage.page";
 import Header from "./components/header/header.component";
 
 function HatsPage() {
